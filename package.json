@@ -1,5 +1,14 @@
 {
   "name": "japanactivity.hu",
+  "scripts": {
+    "build": "npm run css && npm run copy",
+    "css-compile": "sass src/scss/styles.scss dist/styles.css --load-path=node_modules --style compressed",
+    "css-prefix": "postcss --replace dist/styles.css --use autoprefixer --map",
+    "css-purge": "purgecss -c ./purgecss.config.js",
+    "css": "npm run css-compile && npm run css-prefix && npm run css-purge",
+    "css-debug": "npm run css-compile && npm run css-prefix",
+    "copy": "copyfiles -u 1 ./src/index.html dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codernr/japanactivity.hu.git"
