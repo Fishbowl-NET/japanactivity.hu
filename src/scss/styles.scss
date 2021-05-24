@@ -8,4 +8,10 @@
 @import 'bootstrap/scss/containers';
 @import 'bootstrap/scss/grid';
 
+@import 'bootstrap/scss/buttons';
+
 @import 'bootstrap/scss/utilities/api';
+
+.cover-container {
+    max-width: 42em;
+}
