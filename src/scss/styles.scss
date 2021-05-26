@@ -13,6 +13,8 @@
 
 @import 'bootstrap/scss/utilities/api';
 
+@import 'github-corner';
+
 .body-bg {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
