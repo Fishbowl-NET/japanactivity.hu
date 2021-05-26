@@ -9,12 +9,9 @@
 @import 'bootstrap/scss/grid';
 
 @import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/card';
 
 @import 'bootstrap/scss/utilities/api';
-
-.cover-container {
-    max-width: 42em;
-}
 
 .body-bg {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg) no-repeat center center fixed;
