@@ -7,7 +7,7 @@
     "css-purge": "purgecss -c ./purgecss.config.js",
     "css": "npm run css-compile && npm run css-prefix && npm run css-purge",
     "css-debug": "npm run css-compile && npm run css-prefix",
-    "copy": "copyfiles -u 1 ./src/index.html ./src/images/*.* dist",
+    "copy": "copyfiles -u 1 ./src/index.html ./src/jatekszabaly.html ./src/images/*.* dist",
     "serve": "http-server ./dist"
   },
   "repository": {
