@@ -2,7 +2,7 @@ module.exports = {
     content: [
         './src/index.html'
     ],
-    css: ['./dist/styles.css'],
+    css: ['./docs/styles.css'],
     keyframes: true,
-    output: './dist/'
+    output: './docs/'
 }
